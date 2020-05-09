@@ -1,0 +1,26 @@
+body {
+  background: #dfe6e9;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 22.5rem;
+  margin-top: 3.125rem;
+}
+
+
+/* Responsive Design (770px and below) */
+@media (max-width: 48.125rem) {
+  .container {
+    margin: 0 10%;
+  }
+  .image {
+    width: 100%;
+  }
+}

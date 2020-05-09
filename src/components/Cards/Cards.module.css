@@ -1,0 +1,28 @@
+.container {
+  margin: 3.125rem auto;
+}
+
+.card {
+  margin: 0 2% !important;
+}
+
+.infected {
+  border-bottom: .625rem solid rgba(0, 0, 255, 0.5);
+}
+
+.recovered {
+  border-bottom: .625rem solid rgba(0, 255, 0, 0.5);
+}
+
+.deaths {
+  border-bottom: .625rem solid rgba(255, 0, 0, 0.5);
+}
+
+
+
+/* Responsive Design (770px and below) */
+@media (max-width: 48.125rem) {
+  .card {
+    margin: 2% 0 !important;
+  }
+}

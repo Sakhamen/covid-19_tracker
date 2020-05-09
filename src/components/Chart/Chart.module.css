@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+}
+
+
+/* Responsive Design (770px and below) */
+@media (max-width: 48.125rem) {
+  .container {
+    width: 100%;
+  }
+}
